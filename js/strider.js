@@ -24,6 +24,33 @@ $(document).ready(function(){
             $("#hero-slider").carousel("next")
         }
     });
+    // HERO TEXT ANIMATION2
+    $("#moving-text2").Morphext({
+        animation: "fadeInLeft",
+        separator: ",",
+        speed: 4000,
+        complete: function () {
+            $("#hero-slider").carousel("next")
+        }
+    });
+    // HERO TEXT ANIMATION3
+    $("#moving-text3").Morphext({
+        animation: "fadeInRight",
+        separator: ",",
+        speed: 4000,
+        complete: function () {
+            $("#hero-slider").carousel("next")
+        }
+    });
+    // HERO TEXT ANIMATION3
+    $("#moving-text4").Morphext({
+        animation: "fadeInUp",
+        separator: ",",
+        speed: 4000,
+        complete: function () {
+            $("#hero-slider").carousel("next")
+        }
+    });
     
     // SMOOTH SCROLLING TO ANCHORS
         $('a[href*=\\#]:not([href=\\#]):not(.control-right, .control-left)').on('click', function() {

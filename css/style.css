@@ -33,26 +33,26 @@ Content:	#FFF; (white)
 Footer:		#070707; (black)
 
 a (standard):	#F5F5F5; (white)
-a (hover): #E48632; (orange)
-a (visited):	#E48632;
-a (active):	#E48632;
+a (hover): #ff7300; (orange)
+a (visited):	#ff7300;
+a (active):	#ff7300;
 
 [Colors]
 
-Primary Color: #E48632;
+Primary Color: #ff7300;
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500'); /* Raleway Font */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Open Sans Font */
 @font-face {
-    font-family: 'Anurati';
-    src: url('../fonts/Anurati-Regular.otf');
+    font-family: 'Mandalore';
+    src: url('../fonts/MandaloreExpanded.otf');
 }
 
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
-    color: #E48632;
+    color: #ff7300;
 }
 /* -Link Styling- */
 a {
@@ -65,15 +65,15 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: #E48632;
+    color: #ff7300;
 	text-decoration: underline;
 }
 a:active {
-    color: #E48632;
+    color: #ff7300;
     text-decoration: underline;
 }
 a:focus {
-    color: #E48632;
+    color: #ff7300;
     text-decoration: none;
 }
 /* -Resets- */
@@ -98,7 +98,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
     font-size: 2.25rem; /* 36px */
-    font-family: Anurati, sans-serif;
+    font-family: Mandalore, sans-serif;
     letter-spacing: 5px;
 } 
 h2 {
@@ -170,7 +170,7 @@ ul {
 hr {
     width: 100%;
     height: 2px;
-    background: #E48632;
+    background: #ff7300;
     margin: 20px 0;
     border: none;
 }
@@ -181,7 +181,7 @@ hr {
 }
 .short-hr-left::after {
     border-top: 2px solid;
-    border-color: #E48632;
+    border-color: #ff7300;
     content: "";
     display: block;
     height: 1px;
@@ -190,7 +190,7 @@ hr {
 }
 .short-hr-center::after {
     border-top: 2px solid;
-    border-color: #E48632;
+    border-color: #ff7300;
     content: "";
     display: block;
     height: 1px;
@@ -224,7 +224,7 @@ button {
     outline: none !important;
 }
 .button {
-	background: #E48632;
+	background: #ff7300;
     border: none;
     border-radius: 2px;
     color: #FFF;
@@ -266,7 +266,7 @@ button {
 #progress {
     width: 0;
     height: 2px;
-    background: #E48632;
+    background: #ff7300;
     position: relative;
     top: 45%;
 }
@@ -289,7 +289,7 @@ button {
 
 /* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
 #logo {
-    font-family: Anurati, sans-serif;
+    font-family: Mandalore, sans-serif;
     font-size: 1.75rem; /* 28px */;
     letter-spacing: 5px;
 }
@@ -313,13 +313,13 @@ button {
     color: #FFF;
 }
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #E48632;
+    color: #ff7300;
 }
 .navbar-dark .navbar-nav .nav-link:active {
-    color: #E48632;
+    color: #ff7300;
 }
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: #E48632;
+    color: #ff7300;
 }
 .navbar-toggler {
     border: none;
@@ -412,11 +412,23 @@ button {
 #support-image {
     margin: 0 0 0 20%;
 }
+.halfsize {
+    transform: scale(0.5);
+  }
+  
+/* Define a new class named fullwidth */
+.fullwidthX {
+    text-align: justify;
+    text-justify: inter-character;
+    display: inline-block;
+    width: 100%;
+  }
+  
 /* --------------------------- /////////// VI. GAMES SECTION /////////// --------------------------- */
 .game-tags {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 10px;
-    border-left: 2px solid #E48632;
+    border-left: 2px solid #ff7300;
 }
 .game-tags li {
     display: inline;
@@ -430,10 +442,10 @@ button {
     text-decoration: none;
 }
 .game-tags li a:hover {
-    color: #E48632;
+    color: #ff7300;
 }
 .game-tags li a:focus {
-    color: #E48632;
+    color: #ff7300;
 }
 .game-card {
     width: 100%;
@@ -449,7 +461,7 @@ button {
     top: 0;
     left: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
-    border-left: 2px solid #E48632;
+    border-left: 2px solid #ff7300;
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -650,7 +662,7 @@ button {
 }
 #team figure img {
     border-radius: 3px;
-    border-bottom: 2px solid #E48632;
+    border-bottom: 2px solid #ff7300;
 }
 .team-caption ul {
     margin-top: 10px;
@@ -663,7 +675,7 @@ button {
     color: #EEE;
 }
 .team-caption ul li > a:hover {
-    color: #E48632;
+    color: #ff7300;
 }
 .team-caption {
     position: absolute;
@@ -702,7 +714,7 @@ button {
 .job-card {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-    border-left: 2px solid #E48632;
+    border-left: 2px solid #ff7300;
     padding: 25px 35px;
     margin: 10px 0;
 }
@@ -710,7 +722,7 @@ button {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 .modal-header {
-    border-bottom: 1px solid #E48632;
+    border-bottom: 1px solid #ff7300;
 }
 .modal-body > ul > li > p {
     padding: 0px 5px;
@@ -725,7 +737,7 @@ button {
 }
 .modal-body ul li:before {
     content: "\f101";
-    color: #E48632;
+    color: #ff7300;
     display: inline-block;
     width: 1em;
     margin-left: -10px;
@@ -738,7 +750,7 @@ button {
     display: inline-block;
     padding: 5px 15px 7px 15px;
     margin: 5px 5px;
-    border: 1px solid #E48632;
+    border: 1px solid #ff7300;
     border-radius: 20px;
 }
 .modal-body .skill-list li:before {
@@ -748,7 +760,7 @@ button {
     margin-bottom: 0;
 }
 .modal-footer {
-    border-top: 1px solid #E48632;
+    border-top: 1px solid #ff7300;
 }
 .modal-footer button {
     margin: 0;
@@ -766,7 +778,7 @@ button {
     cursor: pointer;
 }
 .close:hover {
-    color: #E48632;
+    color: #ff7300;
     opacity: 1;
 }
 /* -- Newsletter -- */
@@ -795,7 +807,7 @@ button {
     width: 100%;
     color: #FFF;
     background: none;
-    border-bottom: 2px solid #E48632 !important;
+    border-bottom: 2px solid #ff7300 !important;
     border-left: none !important;
     border-right: none !important;
     border-top: none !important;
@@ -805,7 +817,7 @@ button {
     width: 100%;
     color: #FFF;
     background: none;
-    border-bottom: 2px solid #E48632 !important;
+    border-bottom: 2px solid #ff7300 !important;
     border-left: none !important;
     border-right: none !important;
     border-top: none !important;
@@ -827,7 +839,7 @@ button {
     margin-top: 25px;
 }
 #contact ul li i {
-    color: #E48632;
+    color: #ff7300;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     padding: 10px;
     
@@ -850,7 +862,7 @@ button {
     min-height: 70px;
     height: auto;
     background: #070707;
-    border-top: 2px solid #E48632;
+    border-top: 2px solid #ff7300;
     padding: 20px 0 0 0;
 }
 .social-links {
@@ -864,10 +876,10 @@ button {
     color: #FFF;
 }
 .social-links li a:hover {
-    color: #E48632;
+    color: #ff7300;
 }
 .social-links li a:focus {
-    color: #E48632;
+    color: #ff7300;
 }
 #copyright {
     float: left;
@@ -884,7 +896,7 @@ button {
      margin-top: 18%;
 }
 .text-404 h1 {
-    font-family: Anurati, sans-serif;
+    font-family: Mandalore, sans-serif;
     font-size: 4rem;
 }
 .text-404 a {
@@ -908,7 +920,7 @@ button {
 }
 @media (max-width : 991px) {
     .nav-item > a::first-letter {
-    color: #E48632;
+    color: #ff7300;
     }
     .navbar-dark {
         background-color: rgba(0,0,0,0.4); /* navbar background gradient */
