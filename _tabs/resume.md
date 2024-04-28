@@ -1,7 +1,5 @@
 ---
 # the default layout is 'page'
-layout: page
-title: Resume
 nav: false
 ---
 

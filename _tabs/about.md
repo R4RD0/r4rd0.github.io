@@ -2,7 +2,6 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
-
 ---
 
 Hi there!👋 I'm Luke, a power platform developer based in the UK. My expertise lies in working with the Microsoft 365 stack and Azure. My tech background started in IT support, on the ground cableing and installing hardware. Then on the desk, where I fell in love with the magic 🪄 of PowerShell scripting and finding ways to streamline tasks.
