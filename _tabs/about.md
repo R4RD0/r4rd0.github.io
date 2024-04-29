@@ -15,8 +15,8 @@ When I step away from the keyboard, it's usually for family time.  If I carve ou
 ## Let's Connect
 Feel free to reach out if you have any questions or if you're interested in collaborating on projects. You can find me on [LinkedIn](https://www.linkedin.com/in/lukecutmore) or [GitHub](https://github.com/R4RD0).
 
-
->Looking for my [Resume](/resume)?
-{: .prompt-info }
-
+<!--
+#>Looking for my [Resume](/resume)?
+# {: .prompt-info }
+-->
 {: .prompt-tip }
